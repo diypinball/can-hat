@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BBB)(type Legacy)(uri C:\Projects\pinball\nextgen\beaglebone-can\beagleboard.mod)(options "")(descr BBB))
+  (lib (name open-project)(type Legacy)(uri ${KIPRJMOD}\open-project.mod)(options "")(descr open-project))
+)
