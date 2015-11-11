@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:can-hat-r1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -101,7 +101,7 @@ F 3 "" H 3300 5300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-can-hat-r1 #PWR01
 U 1 1 54F16161
 P 2050 3950
 F 0 "#PWR01" H 2050 3950 30  0001 C CNN
@@ -112,7 +112,7 @@ F 3 "" H 2050 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND-RESCUE-can-hat-r1 #PWR02
 U 1 1 54F16299
 P 3300 2400
 F 0 "#PWR02" H 3300 2400 30  0001 C CNN
@@ -156,7 +156,7 @@ F 3 "" H 6500 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND-RESCUE-can-hat-r1 #PWR06
 U 1 1 54F16408
 P 6500 3200
 F 0 "#PWR06" H 6500 3200 30  0001 C CNN
@@ -167,7 +167,7 @@ F 3 "" H 6500 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L GND-RESCUE-can-hat-r1 #PWR07
 U 1 1 54F16654
 P 4000 5600
 F 0 "#PWR07" H 4000 5600 30  0001 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 9000 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L GND-RESCUE-can-hat-r1 #PWR08
 U 1 1 54F16D07
 P 8650 6600
 F 0 "#PWR08" H 8650 6600 30  0001 C CNN
@@ -224,7 +224,7 @@ ID_SD
 Text Label 10350 5950 2    60   ~ 0
 ID_SC
 $Comp
-L R R1
+L R-RESCUE-can-hat-r1 R1
 U 1 1 54F17782
 P 7950 1250
 F 0 "R1" V 8030 1250 40  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 7950 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-can-hat-r1 R2
 U 1 1 54F177FE
 P 8250 1250
 F 0 "R2" V 8330 1250 40  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 8250 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-can-hat-r1 R3
 U 1 1 54F1781F
 P 8550 1250
 F 0 "R3" V 8630 1250 40  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 8550 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-can-hat-r1 R4
 U 1 1 54F1783C
 P 8850 1250
 F 0 "R4" V 8930 1250 40  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 8850 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-can-hat-r1 R5
 U 1 1 54F17869
 P 9150 1250
 F 0 "R5" V 9230 1250 40  0000 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 9150 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-can-hat-r1 R6
 U 1 1 54F17882
 P 9450 1250
 F 0 "R6" V 9530 1250 40  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 9450 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-can-hat-r1 R7
 U 1 1 54F1789B
 P 9750 1250
 F 0 "R7" V 9830 1250 40  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 9750 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-can-hat-r1 R8
 U 1 1 54F178B4
 P 10050 1250
 F 0 "R8" V 10130 1250 40  0000 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 10050 1250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-can-hat-r1 R9
 U 1 1 54F178CD
 P 10350 1250
 F 0 "R9" V 10430 1250 40  0000 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 7950 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-can-hat-r1 C1
 U 1 1 54F184E4
 P 6950 1000
 F 0 "C1" H 6950 1100 40  0000 L CNN
@@ -345,7 +345,7 @@ F 3 "" H 6950 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-can-hat-r1 C2
 U 1 1 54F18509
 P 7250 1000
 F 0 "C2" H 7250 1100 40  0000 L CNN
@@ -356,7 +356,7 @@ F 3 "" H 7250 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND-RESCUE-can-hat-r1 #PWR010
 U 1 1 54F18522
 P 7100 1400
 F 0 "#PWR010" H 7100 1400 30  0001 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 7100 600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-can-hat-r1 C5
 U 1 1 54F18AAE
 P 2350 2550
 F 0 "C5" H 2350 2650 40  0000 L CNN
@@ -389,7 +389,7 @@ F 3 "" H 2350 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-can-hat-r1 C6
 U 1 1 54F18ACD
 P 2650 2550
 F 0 "C6" H 2650 2650 40  0000 L CNN
@@ -400,7 +400,7 @@ F 3 "" H 2650 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L GND-RESCUE-can-hat-r1 #PWR012
 U 1 1 54F18B16
 P 2500 2950
 F 0 "#PWR012" H 2500 2950 30  0001 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 2650 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-can-hat-r1 R11
 U 1 1 54F19E16
 P 7600 2700
 F 0 "R11" V 7680 2700 40  0000 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 7600 2700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-can-hat-r1 C7
 U 1 1 54F19EF2
 P 7950 3000
 F 0 "C7" H 7950 3100 40  0000 L CNN
@@ -455,7 +455,7 @@ F 3 "" H 7950 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-can-hat-r1 R12
 U 1 1 54F19F0F
 P 8400 2700
 F 0 "R12" V 8480 2700 40  0000 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 8400 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND-RESCUE-can-hat-r1 #PWR015
 U 1 1 54F1A2DC
 P 7950 3300
 F 0 "#PWR015" H 7950 3300 30  0001 C CNN
@@ -499,7 +499,7 @@ F 3 "" H 8850 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-can-hat-r1 R10
 U 1 1 54F1A66B
 P 4150 2150
 F 0 "R10" V 4230 2150 40  0000 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 4150 2150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND-RESCUE-can-hat-r1 #PWR017
 U 1 1 54F1A684
 P 4150 2500
 F 0 "#PWR017" H 4150 2500 30  0001 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 4800 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-can-hat-r1 C3
 U 1 1 54F1B073
 P 4400 2400
 F 0 "C3" H 4400 2500 40  0000 L CNN
@@ -543,7 +543,7 @@ F 3 "" H 4400 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-can-hat-r1 C4
 U 1 1 54F1B08C
 P 5200 2400
 F 0 "C4" H 5200 2500 40  0000 L CNN
@@ -554,7 +554,7 @@ F 3 "" H 5200 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND-RESCUE-can-hat-r1 #PWR018
 U 1 1 54F1B28B
 P 4800 2800
 F 0 "#PWR018" H 4800 2800 30  0001 C CNN
@@ -576,7 +576,7 @@ F 3 "" H 1900 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND-RESCUE-can-hat-r1 #PWR019
 U 1 1 54F1BC36
 P 1900 7750
 F 0 "#PWR019" H 1900 7750 30  0001 C CNN
@@ -598,7 +598,7 @@ F 3 "" H 1900 6350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L C-RESCUE-can-hat-r1 C16
 U 1 1 54F1C097
 P 900 6950
 F 0 "C16" H 900 7050 40  0000 L CNN
@@ -609,7 +609,7 @@ F 3 "" H 900 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
+L R-RESCUE-can-hat-r1 R19
 U 1 1 54F1C35A
 P 2700 6600
 F 0 "R19" V 2780 6600 40  0000 C CNN
@@ -620,7 +620,7 @@ F 3 "" H 2700 6600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R20
+L R-RESCUE-can-hat-r1 R20
 U 1 1 54F1C375
 P 3000 6600
 F 0 "R20" V 3080 6600 40  0000 C CNN
@@ -631,7 +631,7 @@ F 3 "" H 3000 6600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R21
+L R-RESCUE-can-hat-r1 R21
 U 1 1 54F1C394
 P 3300 6600
 F 0 "R21" V 3380 6600 40  0000 C CNN
@@ -703,10 +703,6 @@ Wire Wire Line
 Connection ~ 2050 2000
 Connection ~ 1850 1600
 Connection ~ 1950 1700
-Wire Wire Line
-	5750 1700 4050 1700
-Wire Wire Line
-	5750 1600 4050 1600
 Connection ~ 2050 3850
 Connection ~ 1750 1300
 Wire Wire Line
@@ -1005,7 +1001,7 @@ Wire Wire Line
 	2700 7650 2600 7650
 Connection ~ 2700 6950
 $Comp
-L R R13
+L R-RESCUE-can-hat-r1 R13
 U 1 1 54F1EF87
 P 3300 4900
 F 0 "R13" V 3380 4900 40  0000 C CNN
@@ -1016,7 +1012,7 @@ F 3 "" H 3300 4900 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C C15
+L C-RESCUE-can-hat-r1 C15
 U 1 1 54F1EFA2
 P 2300 5500
 F 0 "C15" H 2300 5600 40  0000 L CNN
@@ -1027,7 +1023,7 @@ F 3 "" H 2300 5500 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-can-hat-r1 R16
 U 1 1 54F1F062
 P 1750 5500
 F 0 "R16" V 1830 5500 40  0000 C CNN
@@ -1038,7 +1034,7 @@ F 3 "" H 1750 5500 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C C14
+L C-RESCUE-can-hat-r1 C14
 U 1 1 54F1F089
 P 2050 5350
 F 0 "C14" H 2050 5450 40  0000 L CNN
@@ -1049,7 +1045,7 @@ F 3 "" H 2050 5350 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-can-hat-r1 C8
 U 1 1 54F1F0C2
 P 2050 5100
 F 0 "C8" H 2050 5200 40  0000 L CNN
@@ -1077,7 +1073,7 @@ Connection ~ 2550 5400
 Wire Wire Line
 	2100 5500 2000 5500
 $Comp
-L GND #PWR022
+L GND-RESCUE-can-hat-r1 #PWR022
 U 1 1 54F1FBA4
 P 1400 5800
 F 0 "#PWR022" H 1400 5800 30  0001 C CNN
@@ -1098,7 +1094,7 @@ Wire Wire Line
 	1500 5500 1400 5500
 Connection ~ 1400 5500
 $Comp
-L C C9
+L C-RESCUE-can-hat-r1 C9
 U 1 1 54F20342
 P 4300 5100
 F 0 "C9" H 4300 5200 40  0000 L CNN
@@ -1137,7 +1133,7 @@ F 3 "" H 5000 5300 60  0000 C CNN
 $EndComp
 Connection ~ 4600 5300
 $Comp
-L R R17
+L R-RESCUE-can-hat-r1 R17
 U 1 1 54F20DC2
 P 1750 5700
 F 0 "R17" V 1830 5700 40  0000 C CNN
@@ -1148,7 +1144,7 @@ F 3 "" H 1750 5700 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R18
+L R-RESCUE-can-hat-r1 R18
 U 1 1 54F20DE5
 P 2450 5700
 F 0 "R18" V 2530 5700 40  0000 C CNN
@@ -1207,7 +1203,7 @@ Wire Wire Line
 	900  4800 4000 4800
 Connection ~ 4000 4900
 $Comp
-L CP C12
+L CP-RESCUE-can-hat-r1 C12
 U 1 1 54F28D96
 P 900 5300
 F 0 "C12" H 950 5400 40  0000 L CNN
@@ -1218,7 +1214,7 @@ F 3 "" H 900 5300 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C13
+L CP-RESCUE-can-hat-r1 C13
 U 1 1 54F28DAF
 P 1200 5300
 F 0 "C13" H 1250 5400 40  0000 L CNN
@@ -1238,7 +1234,7 @@ Wire Wire Line
 	1200 5100 1200 4800
 Connection ~ 1200 4800
 $Comp
-L CP C10
+L CP-RESCUE-can-hat-r1 C10
 U 1 1 54F2AC58
 P 5550 5200
 F 0 "C10" H 5600 5300 40  0000 L CNN
@@ -1249,7 +1245,7 @@ F 3 "" H 5550 5200 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C11
+L CP-RESCUE-can-hat-r1 C11
 U 1 1 54F2AC77
 P 5800 5200
 F 0 "C11" H 5850 5300 40  0000 L CNN
@@ -1274,7 +1270,7 @@ Wire Wire Line
 	5550 5000 5550 4900
 Connection ~ 5550 4900
 $Comp
-L GND #PWR025
+L GND-RESCUE-can-hat-r1 #PWR025
 U 1 1 54F2B0C8
 P 5550 5600
 F 0 "#PWR025" H 5550 5600 30  0001 C CNN
@@ -1286,7 +1282,7 @@ F 3 "" H 5550 5600 60  0000 C CNN
 $EndComp
 Connection ~ 5550 5500
 $Comp
-L R R22
+L R-RESCUE-can-hat-r1 R22
 U 1 1 54F2B4FD
 P 4700 6600
 F 0 "R22" V 4780 6600 40  0000 C CNN
@@ -1297,7 +1293,7 @@ F 3 "" H 4700 6600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R23
+L R-RESCUE-can-hat-r1 R23
 U 1 1 54F2B516
 P 5000 6600
 F 0 "R23" V 5080 6600 40  0000 C CNN
@@ -1308,7 +1304,7 @@ F 3 "" H 5000 6600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R24
+L R-RESCUE-can-hat-r1 R24
 U 1 1 54F2B52F
 P 5300 6600
 F 0 "R24" V 5380 6600 40  0000 C CNN
@@ -1319,7 +1315,7 @@ F 3 "" H 5300 6600 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-can-hat-r1 D2
 U 1 1 54F2B548
 P 4700 7250
 F 0 "D2" H 4700 7350 50  0000 C CNN
@@ -1330,7 +1326,7 @@ F 3 "" H 4700 7250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-can-hat-r1 D3
 U 1 1 54F2B573
 P 5000 7250
 F 0 "D3" H 5000 7350 50  0000 C CNN
@@ -1341,7 +1337,7 @@ F 3 "" H 5000 7250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-can-hat-r1 D4
 U 1 1 54F2B596
 P 5300 7250
 F 0 "D4" H 5300 7350 50  0000 C CNN
@@ -1352,7 +1348,7 @@ F 3 "" H 5300 7250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR026
+L GND-RESCUE-can-hat-r1 #PWR026
 U 1 1 54F2B5B1
 P 5000 7650
 F 0 "#PWR026" H 5000 7650 30  0001 C CNN
@@ -1486,7 +1482,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 4850 7300 5000
 $Comp
-L R R14
+L R-RESCUE-can-hat-r1 R14
 U 1 1 54F2F417
 P 6400 5250
 F 0 "R14" V 6480 5250 40  0000 C CNN
@@ -1497,7 +1493,7 @@ F 3 "" H 6400 5250 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-can-hat-r1 R15
 U 1 1 54F2F434
 P 7300 5250
 F 0 "R15" V 7380 5250 40  0000 C CNN
@@ -1516,7 +1512,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 5500 6400 5700
 $Comp
-L GND #PWR032
+L GND-RESCUE-can-hat-r1 #PWR032
 U 1 1 54F2F837
 P 6400 5700
 F 0 "#PWR032" H 6400 5700 30  0001 C CNN
@@ -1566,4 +1562,20 @@ F 3 "" H 6850 4000 60  0000 C CNN
 	1    6850 4000
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4050 1600 4600 1600
+Wire Wire Line
+	4600 1600 4600 1550
+Wire Wire Line
+	4600 1550 4700 1550
+Wire Wire Line
+	4700 1550 4700 1700
+Wire Wire Line
+	4700 1700 5750 1700
+Wire Wire Line
+	5750 1600 4650 1600
+Wire Wire Line
+	4650 1600 4650 1700
+Wire Wire Line
+	4650 1700 4050 1700
 $EndSCHEMATC
